@@ -1,0 +1,117 @@
+.body{
+    margin: 0;
+   
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    height: 400px;
+}
+.main{
+    background-image: url(../img/cofe.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 1260px;
+    height: 200px;
+    margin: 0px auto;
+}
+.logo__title{
+    color: azure;
+    font-size: 36PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.slogan{
+    color: azure;
+    padding-left: 25px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_nav1{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    margin-right: 48px;
+    
+}
+.top_nav1:last-child{
+    margin-right: 0px;
+}
+.content{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.photo1{
+    position: absolute;
+    right: 320px;
+    top: 200px;
+    z-index: 1;
+}
+.ggg{
+    text-align: center;
+    color: azure;
+    font-size: 22px;
+   margin: -50px;
+   text-decoration: underline;
+   transition: 1S;
+}
+.ggg:hover{
+    color: blanchedalmond;
+}
+.PHOTO2{
+    position: absolute;
+    right: 0px;
+    top: 220px;
+    z-index: 1;
+}
+.hhh{
+    text-align: center;
+    color: azure;
+    font-size: 22px;
+   margin: -15px;
+   text-decoration: underline;
+   transition: 1S;
+}
+.hhh:hover{
+    color: blanchedalmond;
+}
+.photo3{
+    position: absolute;
+    right: 110px;
+    top: 420px;
+    z-index: 1;
+}
+.jjj{
+    text-align: center;
+    color: azure;
+    font-size: 22px;
+   margin: -15px;
+   text-decoration: underline;
+   transition: 1S;
+}
+.jj:hover{
+    color: blanchedalmond;
+}
+.photo1:hover{
+    width: 320px;
+    height: 320px;
+}
+.PHOTO2:hover{
+    width: 320px;
+    height: 290px;
+}
+.photo3:hover{
+    width: 370px;
+    height: 460px;
+}
